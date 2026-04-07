@@ -41,9 +41,7 @@ A **local-only** **LLM** assistant that runs on your machine: **Ollama** for mod
 Example clone location:
 
 ```bash
-mkdir -p ~/github
-cd ~/github
-git clone <your-repo-url> ollama-llm-streamlit-agent
+git clone https://github.com/amirsaleem1990/ollama-llm-streamlit-agent
 cd ollama-llm-streamlit-agent
 ```
 
@@ -71,7 +69,7 @@ To use different model names, edit `config.py` and pull those tags instead.
 ## Installation (Python dependencies)
 
 ```bash
-cd ~/github/ollama-llm-streamlit-agent   # or your clone path
+cd ollama-llm-streamlit-agent
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -U pip
@@ -143,7 +141,7 @@ LOG_LEVEL=DEBUG AGENT_GRAPH_DEBUG=1 .venv/bin/streamlit run app.py
 ## Web UI
 
 ```bash
-cd ~/github/ollama-llm-streamlit-agent
+cd ollama-llm-streamlit-agent
 .venv/bin/streamlit run app.py
 ```
 
